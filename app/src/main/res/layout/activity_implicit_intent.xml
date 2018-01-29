@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context="imastudio.id.co.learnintent.ActivityImplicitIntent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Contoh Penggunaan Implicit Intent"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPhoneCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Cell" />
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS" />
+
+        <Button
+            android:id="@+id/btnSendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEND EMAIL" />
+
+        <Button
+            android:id="@+id/btnViewUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW Link Url" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
