@@ -13,14 +13,14 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnImplicit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="75dp"
             android:text="IMPLICIT INTENT" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnExplicit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="EXPLICIT INTENT" />
